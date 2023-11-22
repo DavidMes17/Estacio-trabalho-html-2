@@ -11,3 +11,29 @@ body {
     box-sizing: border-box;
     cursor: default;
 }
+.navbar {
+    background-color: var(--primary-color);
+}
+.oms {
+    display: flex;
+    align-items: center;
+}
+.oms > p{
+    color: var(--oms-color);
+    text-decoration: underline;
+    margin-left: 2vh;
+}
+.contrate {
+    display: flex;
+    align-items: center;
+}
+.btn-contrate::hover {
+    background-color: var(--unimed-color);
+    transition: 2s linear;
+}
+.btn {
+    border-style: outset !important;
+}
+.btn:active {
+    border-style: inset !important;
+}
